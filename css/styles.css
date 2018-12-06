@@ -1,0 +1,85 @@
+html {
+	scroll-behavior: smooth;
+    height: 100vh;
+    background-image: url(../img/wheat.png);
+    background-image: cover;
+}
+
+img {
+    width: 392px;
+    height: 278.75px;
+    font-weight: lighter;
+    justify-content: center;
+}
+
+.container {
+        background-image: url("pipes.png");
+}
+
+.form {
+	width: 100%;
+	height: 100vh;
+	color: #fff;
+	background: linear-gradient(-45deg, rgb(240, 118, 81), rgb(241, 61, 130), rgb(35, 164, 211), rgb(37, 212, 171), rgb(245, 245, 13), rgb(255, 0, 0),rgb(243, 0, 243), rgba(89, 0, 255, 0.753));
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+    
+}
+
+.box {
+    filter: alpha(opacity=30);/* For IE8 and earlier */
+    margin: 5rem;
+}
+
+#background {
+    color: white;
+}
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
