@@ -471,7 +471,7 @@ if (isset($_POST['answers'])){
 </section>
 <!-- This is where the landing page of the form starts-->
 
-    <form action="index.php" method="post" id="quiz" class="form">
+    <form action="index.html" method="post" id="quiz" class="form">
 
         <section class="hero is-fullheight is-bold">
 
